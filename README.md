@@ -119,4 +119,4 @@ Exceute following command to run the application
 Open the following URL in browser  
 `localhost:8082/`  
 
-Note: The default port set for this application is 8082 in application.properties file. Web server in the application will start on port 8081
+Note: The default port set for this application is 8082 in application.properties file. Web server in the application will start on port 8082
