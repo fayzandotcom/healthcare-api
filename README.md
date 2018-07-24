@@ -21,24 +21,82 @@ Note: Lombok Project is used for POJO classes. For IDE setup follow https://proj
 
 ## REST API
 
-### 1. Sign Up API
+### 1. Sign Up
 URI: /user/sign-up 
 
 Method: POST
-  
-#### Request Header  
-Content-Type: application/x-www-form-urlencoded  
-
 
 #### Request Body  
 
+Content-Type: multipart/form-data
 
-| Parameter     | Type    | Price |
-| -------------	|---------|-------|
-| email  	| string  | $6    |
-| password	| string  | $8    |
+| Parameter     | Type    |
+| -------------	|---------|
+| email  	| string  |
+| password	| string  |
  
-	
+ 
+### 2. Login
+URI: /login 
+
+Method: POST
+
+#### Request Body  
+
+Content-Type: multipart/form-data
+
+| Parameter     | Type    |
+| -------------	|---------|
+| email  	| string  |
+| password	| string  |
+ 
+ #### Response Body
+ 
+ Content-Type: application/json
+ 
+| Parameter     | Type    |
+| -------------	|---------|
+| token  	| string  |
+
+### 3. Doctor Search
+URI: /doctors 
+
+Method: GET
+
+#### Query Param  
+
+| Parameter     | Type    | Description |
+| -------------	|---------| ------------|
+| query  	| string  | search keyword	|
+| location	| string  | (lat,lon,range (miles))	|
+| user_location	| string  | (lat,lon)	|
+| skip		| integer |		|
+| limit		| integer |		|
+ 
+#### Response Body
+ 
+ Content-Type: application/json
+ 
+ List of doctors
+ 
+### 3. Doctor Details
+URI: /doctors/{uid} 
+
+Method: GET
+
+#### Path Param  
+
+| Parameter     | Type    | Description |
+| -------------	|---------| ------------|
+| uid	  	| string  | doctor uid	|
+ 
+ #### Response Body
+ 
+ Content-Type: application/json
+ 
+ Doctor object
+
+
 ## Build and Run
 
 Maven is used for dependencies and project build.
