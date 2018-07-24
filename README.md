@@ -21,7 +21,7 @@ Note: Lombok Project is used for POJO classes. For IDE setup follow https://proj
 
 ## REST API
 
-1) Sign Up API
+1. Sign Up API
 URI: /user/sign-up 
 Method: POST
   
