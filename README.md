@@ -5,10 +5,18 @@ REST Web service for healthcare system where users can search for doctors and vi
 Database script of this web service can be find here https://github.com/fayzandotcom/healthcare-db 
 APIs in this projects are consumed by an Angular web UI (https://github.com/fayzandotcom/healthcare-ui)
 
-Application demo link: http://45.76.152.208/healthcare
+## Application demo 
+
+API Endpoint: http://45.76.152.208:8083
+
+Web UI: http://45.76.152.208/healthcare
+
 Login Details 
+
 email=fayzan@hotmail.com
+
 password=fayzan
+
 
 ## Description
 
