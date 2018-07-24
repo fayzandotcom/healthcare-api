@@ -28,8 +28,10 @@ Method: POST
 Request Header  
 	Content-Type: application/x-www-form-urlencoded  
 Request Body  
+
+
 | Parameter     | Type    | Price |
-| --------	|---------|-------|
+| -------------	|---------|-------|
 | email  	| string  | $6    |
 | password	| string  | $8    |
  
