@@ -3,6 +3,7 @@
 REST Web service for healthcare system where users can search for doctors and view their details.
 
 Database script of this web service can be find here https://github.com/fayzandotcom/healthcare-db 
+
 APIs in this projects are consumed by an Angular web UI (https://github.com/fayzandotcom/healthcare-ui)
 
 ## Application demo 
