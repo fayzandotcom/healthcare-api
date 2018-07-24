@@ -25,8 +25,10 @@ Note: Lombok Project is used for POJO classes. For IDE setup follow https://proj
 URI: /user/sign-up 
 Method: POST
   
-Request Header  
-	Content-Type: application/x-www-form-urlencoded  
+#### Request Header  
+Content-Type: application/x-www-form-urlencoded  
+
+
 #### Request Body  
 
 
