@@ -28,11 +28,8 @@ Method: POST
 Request Header  
 	Content-Type: application/x-www-form-urlencoded  
 Request Body  
-	1) Parameter Name: email     
-	   Type: String
-  2) Parameter Name: password
-     Typw: String
-  
+- Parameter Name: email	| Type: String
+- Parameter Name: password | Type: String
  
 	
 ## Build and Run
